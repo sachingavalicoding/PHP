@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Design </title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1> Project Management </h1>
+    <form action="php.backend">
+        <div class="row">
+            <label for="name"> Project Name </label>
+            <input type="text" name="name" id="" placeholder="Project Name...">
+        </div>
+        <div class="row">
+            <label for="name"> Assigned to  </label>
+            <select>
+                <option value="one">One</option>
+                <option value="two">two</option>
+                <option value="three">three</option>
+            </select>
+        </div>
+        <div class="row">
+            <label for="name"> Start Date  </label>
+           <input type="date" >
+        </div>
+        <div class="row">
+            <label for="name"> End Date  </label>
+           <input type="date" >
+        </div>
+        <div class="row">
+            <label for="priority">Priority</label>
+            <div class="checkbox">
+
+               High <input type="radio" name="gender">
+              Avg  <input type="radio" name="gender">
+              Low  <input type="radio" name="gender">
+            </div>
+        </div>
+        <div class="row">
+            <label for="textarea">Description </label>
+            <textarea name="textarea"  cols="30" rows="4"></textarea>
+        </div>
+        <div class="row">
+            <button class="btn-blue btn" type="reset">Clear</button>
+            <button class="btn-green btn" type="submit">Submit</button>
+        </div>
+    </form>
+    
+</body>
+</html>
