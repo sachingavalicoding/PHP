@@ -4,6 +4,12 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Form</title>
+   <style>
+      input{
+         padding: 10px 30px;
+         margin: 20px ;
+      }
+   </style>
 </head>
 <body>
 
